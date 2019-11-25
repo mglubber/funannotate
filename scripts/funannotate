@@ -60,7 +60,8 @@ Arguments:
   -c, --cov      Percent coverage of overlap. Default = 95
   -m, --minlen   Minimum length of contig to keep. Default = 500
   --exhaustive   Test every contig. Default is to stop at N50 value.
-        """.format(package_name, __version__)
+  --cpus         Number of cpus to use. Default: 1
+  """.format(package_name, __version__)
 
 sortHelp = """
 Usage:       {:} sort <arguments>
